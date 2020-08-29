@@ -6,4 +6,4 @@ edad = '24 años'
 console.log('Hola ' + nombre + ' ' + apellido)
 console.log('Tengo ' + edad )
 
-var peso = 56kg
+var peso = 56
