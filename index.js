@@ -1,9 +1,5 @@
-var nombre = 'Ana Maria', apellido = 'Mongui'
-var edad = 24
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { App } from './App'
 
-edad = '24 años'
-
-console.log('Hola ' + nombre + ' ' + apellido)
-console.log('Tengo ' + edad )
-
-var peso = 56
+ReactDOM.render(<App />, document.getElementById('app'))
